@@ -44,7 +44,7 @@ export default function AboutMe() {
       </article>
 
       {/* About Text Section */}
-      <aside className="bg-gray-900 p-5 rounded-lg text-left text-white">
+      <aside className="bg-gray-800 p-5 rounded-lg text-left text-white">
         <p>
           I’m <strong>Pranav Kumar Gupta</strong>, a web developer passionate
           about creating impactful and scalable web applications. My expertise
