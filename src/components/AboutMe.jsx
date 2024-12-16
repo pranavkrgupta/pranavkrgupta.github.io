@@ -17,7 +17,10 @@ export default function AboutMe() {
   ];
 
   return (
-    <section aria-labelledby="about-me-section" className="mx-4 my-6">
+    <section
+      aria-labelledby="about-me-section"
+      className="mx-4 my-6 md:w-8/12 place-self-center"
+    >
       {/* Section Header */}
       <header>
         <h1
@@ -29,7 +32,7 @@ export default function AboutMe() {
       </header>
 
       {/* "I Love" Section */}
-      <article className="my-3 w-1/2 pb-3">
+      <div className="my-3 w-1/2 pb-3">
         <h2
           className="text-yellow-400 text-2xl font-bold text-left pb-3"
           aria-labelledby="love-section"
@@ -41,10 +44,10 @@ export default function AboutMe() {
             <LoveItem key={index} text={item} />
           ))}
         </div>
-      </article>
+      </div>
 
       {/* About Text Section */}
-      <aside className="bg-gray-800 p-5 rounded-lg text-left text-white">
+      <div className="bg-gray-800 p-5 rounded-xl text-left text-white">
         <p>
           I’m <strong>Pranav Kumar Gupta</strong>, a web developer passionate
           about creating impactful and scalable web applications. My expertise
@@ -52,7 +55,7 @@ export default function AboutMe() {
           frameworks like <strong>React</strong> and{" "}
           <strong>TailwindCSS</strong>.
         </p>
-      </aside>
+      </div>
     </section>
   );
 }
