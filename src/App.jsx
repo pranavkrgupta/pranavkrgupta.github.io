@@ -3,6 +3,7 @@ import "./index.css";
 import "./App.css";
 import AboutMe from "./components/AboutMe.jsx";
 import Education from "./components/Education.jsx";
+import Experience from "./components/Experience.jsx";
 function App() {
   return (
     <div className="bg-black text-white min-h-screen text-center py-5">
@@ -10,6 +11,7 @@ function App() {
       <p>A Front End Developer | Web Developer | MERN stack Developer</p>
       <AboutMe />
       <Education />
+      <Experience />
     </div>
   );
 }
