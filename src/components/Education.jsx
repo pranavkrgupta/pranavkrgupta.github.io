@@ -45,13 +45,13 @@ export default function Education() {
             <div className="flex items-center justify-between mb-4">
               <span
                 aria-label="Year Range"
-                className="bg-black text-yellow-400 text-xs font-bold rounded-full px-3 py-1"
+                className="bg-black text-amber-400 text-xs font-bold rounded-full px-3 py-1"
               >
                 {edu.yearRange}
               </span>
               <span
                 aria-label="Education Type"
-                className="bg-yellow-100 text-black text-xs font-bold rounded-full px-3 py-1"
+                className="bg-amber-300 text-black text-xs font-bold rounded-full px-3 py-1"
               >
                 {edu.type}
               </span>

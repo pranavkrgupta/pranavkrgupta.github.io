@@ -4,6 +4,7 @@ import "./App.css";
 import AboutMe from "./components/AboutMe.jsx";
 import Education from "./components/Education.jsx";
 import Experience from "./components/Experience.jsx";
+import Certificates from "./components/Certificates.jsx";
 function App() {
   return (
     <div className="bg-black text-white min-h-screen text-center py-5">
@@ -12,6 +13,7 @@ function App() {
       <AboutMe />
       <Education />
       <Experience />
+      <Certificates />
     </div>
   );
 }

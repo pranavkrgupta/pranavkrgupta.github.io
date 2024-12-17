@@ -42,7 +42,7 @@ export default function Experience() {
         {experienceData.map((exp, index) => (
           <div
             key={index}
-            className="bg-gray-50 shadow-lg rounded-xl p-6 mb-6 md:w-8/12 place-self-center"
+            className="bg-gray-200 shadow-lg rounded-xl p-6 mb-6 md:w-8/12 place-self-center"
           >
             {/* Company Info */}
             <div className="flex justify-between items-center">
@@ -58,12 +58,12 @@ export default function Experience() {
             </div>
 
             {/* Position */}
-            <h4 className="text-gray-700 text-left text-lg font-bold py-4">
+            <h4 className="text-gray-700 text-left text-xl font-bold py-4">
               {exp.positions}
             </h4>
 
             {/* Responsibilities */}
-            <ul className="list-disc pl-6 text-gray-600 text-left text-xs space-y-2">
+            <ul className="list-disc pl-6 text-gray-800 text-left text-sm space-y-2">
               {exp.responsibilities.map((item, idx) => (
                 <li key={idx}>{item}</li>
               ))}
