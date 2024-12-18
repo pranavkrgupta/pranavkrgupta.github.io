@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe.jsx";
 import Education from "./components/Education.jsx";
 import Experience from "./components/Experience.jsx";
 import Certificates from "./components/Certificates.jsx";
+import Skills from "./components/Skills.jsx";
 function App() {
   return (
     <div className="bg-black text-white min-h-screen text-center py-5">
@@ -14,6 +15,7 @@ function App() {
       <Education />
       <Experience />
       <Certificates />
+      <Skills />
     </div>
   );
 }
